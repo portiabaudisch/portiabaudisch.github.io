@@ -1,0 +1,134 @@
+
+
+nav > ul {
+  padding-left: 0;
+  margin: 2em 0;
+  list-style: none;
+}
+
+nav > ul > li {
+  display: inline-block;
+  margin-right: 1em;
+  font-weight: bold;
+  margin: 20px;
+}
+
+nav > ul > li > a {
+  font-weight: normal;
+  font-size: 25px;
+}
+
+a:visited {
+  color: rgb(150,70,163);
+}
+
+a {
+  color: rgb(52,100,174);
+}
+
+a:hover {
+  color: rgb(63,144,239);
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 45px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 37px;
+}
+
+h3, h4,h5, h6 {
+  font-family: 'Crimson Text', serif;
+  color: #222;
+}
+
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 20px;
+}
+
+article {
+  margin: 75px;
+}
+
+
+body {
+  font-family: 'Crimson Text', serif;
+  color: #222;
+  text-align: center;
+  background-color: rgba(231,101,121,0.2);
+}
+
+li,ul {
+  font-size: 15px;
+  list-style-type: none;
+}
+
+img {
+  border: 5px solid purple;
+}
+
+#education {
+  padding-top: 47px;
+  padding-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float:left;
+}
+
+#leadership {
+  padding-top: 1px;
+  padding-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#experience {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: bottom;
+}
+
+#broadcast-activites {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+#skills {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  float:left;
+}
+
+#links-to-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(231,101,121,0.5);
+}

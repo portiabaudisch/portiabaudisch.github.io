@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portia Baudisch</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Raleway');
+  .grid {
+    display: grid;
+    grid-template-columns: 2fr, 2fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 20px;
+    grid-template-areas:
+    "masthead masthead"
+    "sidebar  article"
+    "footer   footer";
+  }
+
+  .grid div {
+    border: 0 solid rgb(12,71,162);
+    border-radius: 3px;
+    background-color: rgba(120,71,162,0.8);
+    padding: 0.2rem;
+    color: #fff;
+  }
+
+  .grid div: nth-of-type(2n) {
+    background-color: rgba(12,71,162,0.6);
+  }
+  </style>
+
+
+<body>
+  <header>
+  <h1>Portia Baudisch</h1>
+  <h2>Broadcast Journalist</h2>
+  <nav>
+       <ul>
+         <li><a href="welcome.html">Welcome</li>
+         <li><a href="reel.html">Reel</a></li>
+         <li><a href="packages.html">Packages</a></li>
+         <li><a href="resume.html">Resume</a></li>
+       </ul>
+     </nav>
+  </header>
+
+<main>
+
+<div id="sidebar">
+<img src="web-pic.JPG" alt="Picture of Portia Baudisch at the NBC CT anchor desk"/>
+</div>
+
+<div id="article">
+      <p>Welcome! My name is Portia Baudisch and I am a broadcast journalist graduating from the University of Miami in December of 2018. At the U I majored in Broadcast Journalism and Political Science with a minor in Theatre Arts. I am excited to be moving to El Paso, TX to report on KFOX14 and CBS4. On this website, please find my most recent stories, reel, resume and contact info!</p>
+  </div>
+
+<div id="footer">
+         <p>Contact Me! 203-312-4194 portiabaudisch@gmail.com  Instagram: @portiabaudisch Twitter @PortiaBaudisch LinkedIn Portia Baudisch</p>
+</div>
+
+<div class="grid">
+  <div id="masthead">masthead</div>
+  <div id="sidebar">sidebar</div>
+  <div id="article">article</div>
+  <div id="footer">footer</div>
+</div>
+
+
+
+</body>
+</main>
+</html>

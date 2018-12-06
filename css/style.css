@@ -1,134 +1,114 @@
-
-
-nav > ul {
-  padding-left: 0;
-  margin: 2em 0;
-  list-style: none;
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Raleway');
+body {
+  background-color: white;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
-nav > ul > li {
+p {
+  font-family: 'Century', serif;
+}
+
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1, h2,
+nav {
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+a,
+a:visited {
+  color: rgb(150,70,163);
+}
+
+/* a:visited {
+  color: rgb(52,100,174);
+}  */
+
+a:hover {
+  color: rgb(63,144,239);
+}
+
+nav {
+  font-size: 20px;
+  background-color: #f1f1f1;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
   display: inline-block;
   margin-right: 1em;
   font-weight: bold;
   margin: 20px;
 }
 
-nav > ul > li > a {
-  font-weight: normal;
-  font-size: 25px;
+main {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  grid-gap: 20px;
 }
 
-a:visited {
-  color: rgb(150,70,163);
+#reel main {
+  display: block;
 }
 
-a {
-  color: rgb(52,100,174);
+#intro {
+  grid-column-start: 1;
+  grid-row-start: 1;
 }
 
-a:hover {
-  color: rgb(63,144,239);
+section img {
+  border: 2px solid #f1f1f1;
 }
 
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 45px;
+#intro p,
+.description p {
+  margin-top: 0;
 }
 
-h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 37px;
+#intro address p {
+  margin: 0;
 }
 
-h3, h4,h5, h6 {
-  font-family: 'Crimson Text', serif;
-  color: #222;
-}
-
-
-h2 {
-  font-size: 35px;
-}
-
-h3 {
-  font-size: 30px;
-}
-
-h4 {
-  font-size: 25px;
-}
-
-h5 {
-  font-size: 25px;
-  font-weight: normal;
-}
-
-p {
-  font-size: 20px;
-}
-
-article {
-  margin: 75px;
-}
-
-
-body {
-  font-family: 'Crimson Text', serif;
-  color: #222;
-  text-align: center;
-  background-color: rgba(231,101,121,0.2);
-}
-
-li,ul {
-  font-size: 15px;
-  list-style-type: none;
-}
-
-img {
-  border: 5px solid purple;
-}
-
-#education {
-  padding-top: 47px;
-  padding-bottom: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-  float:left;
-}
-
-#leadership {
-  padding-top: 1px;
-  padding-bottom: 30px;
-  margin-left: 10px;
+.social a {
+  display: inline-block;
   margin-right: 10px;
 }
 
-#experience {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-  float: bottom;
+/* resume style */
+
+#resume h3 {
+  margin-top: 0;
 }
 
-#broadcast-activites {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
+#resume article {
+  margin-bottom: 30px;
 }
 
-
-#skills {
-  padding-top: 30px;
-  padding-bottom: 10px;
-  float:left;
+#resume article h4,
+#resume article h5,
+#resume article p {
+  margin: 0;
 }
 
-#links-to-content {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color: rgba(231,101,121,0.5);
+#skills div {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 20px;
 }
